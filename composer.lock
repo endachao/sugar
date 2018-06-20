@@ -1,0 +1,60 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "2d2d34fcc204ffff7ac8cdfac9be882f",
+    "packages": [
+        {
+            "name": "yccphp/sugar-framework",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yccphp/sugarFramework.git",
+                "reference": "971a20e55384174843a58ab79af2021b486b91db"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yccphp/sugarFramework/zipball/971a20e55384174843a58ab79af2021b486b91db",
+                "reference": "971a20e55384174843a58ab79af2021b486b91db",
+                "shasum": ""
+            },
+            "require": {
+                "ext-swoole": "*",
+                "php": ">=7.0.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Sugar\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "YuanChao",
+                    "email": "yccphp@163.com"
+                }
+            ],
+            "description": "sugar php framework",
+            "support": {
+                "source": "https://github.com/yccphp/sugarFramework/tree/master",
+                "issues": "https://github.com/yccphp/sugarFramework/issues"
+            },
+            "time": "2018-06-20T13:49:01+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "yccphp/sugar-framework": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

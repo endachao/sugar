@@ -1,0 +1,27 @@
+{
+    "name": "yccphp/sugar",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "YuanChao",
+            "email": "yccphp@163.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/yccphp/sugarFramework"
+        }
+    ],
+    "require": {
+        "yccphp/sugar-framework":"dev-master",
+        "php": ">=7.0.5",
+        "ext-swoole": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
